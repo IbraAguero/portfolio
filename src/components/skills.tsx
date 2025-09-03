@@ -41,6 +41,16 @@ const tools = [
     description: "CSS Framework",
     icon: "tailwind-icon.svg",
   },
+  {
+    name: "Prisma",
+    description: "Database ORM",
+    icon: "prisma-icon.svg",
+  },
+  {
+    name: "Drizzle",
+    description: "Database ORM",
+    icon: "drizzle-icon.svg",
+  },
 ];
 
 const Skills = () => {

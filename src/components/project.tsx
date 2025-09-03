@@ -29,6 +29,11 @@ const TAGS = {
     class: "bg-[#4f6e86] text-white",
     icon: "/icons/postgresql-icon.svg",
   },
+  DRIZZLE: {
+    name: "DrizzleORM",
+    class: "bg-[#1a1a1a] text-white",
+    icon: "/icons/drizzle-icon.svg",
+  },
 };
 
 const PROJECTS: Project[] = [
@@ -39,6 +44,15 @@ const PROJECTS: Project[] = [
     link: "https://turnos-medicos.com/",
     image: "/projects/project-1.webp",
     tags: [TAGS.NEXT, TAGS.TAILWIND, TAGS.PRISMA],
+  },
+  {
+    title: "MisFinanzas - Lleva el control de tus ingresos y gastos",
+    description:
+      "Una web muy simple para llevar el control de los gastos e ingresos en tus diferentes billeteras.",
+    link: "https://mis-finanzas-ibra.vercel.app/",
+    github: "https://github.com/IbraAguero/mis-finanzas",
+    image: "/projects/mis-finanzas.webp",
+    tags: [TAGS.NEXT, TAGS.TAILWIND, TAGS.DRIZZLE],
   },
 ];
 
