@@ -18,7 +18,7 @@ const HeroSection = () => {
           </h2>
           <div className="flex gap-2 pt-3">
             <a
-              href="https://drive.google.com/file/d/1DXHPoM_4TcStXAcfyp7dJhq_KqJJ4Lel/view?usp=drive_link"
+              href="/Ibrahim-Agüero-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-500/50 p-1 px-3 rounded-lg text-sm font-semibold flex items-center gap-1 transition-colors cursor-pointer"
