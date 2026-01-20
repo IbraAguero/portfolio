@@ -41,7 +41,7 @@ const PROJECTS: Project[] = [
     title: "TurnosMedicos - Gestiona los turnos, pacientes y cobros",
     description:
       "Plataforma SaaS para organizar turnos, historiales clínicos y pagos online con Mercado Pago. Emite links de pago, gestion de suscripciones.",
-    link: "https://turnos-medicos.com/",
+    link: "https://turnos-medicos.vercel.app/",
     image: "/projects/project-1.webp",
     tags: [TAGS.NEXT, TAGS.TAILWIND, TAGS.PRISMA],
   },
