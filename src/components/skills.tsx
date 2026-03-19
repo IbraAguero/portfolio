@@ -6,6 +6,16 @@ const tools = [
   },
 
   {
+    name: "Java",
+    description: "Language",
+    icon: "java-icon.svg",
+  },
+  {
+    name: "Spring Boot",
+    description: "Framework",
+    icon: "spring-boot-icon.svg",
+  },
+  {
     name: "NextJS",
     description: "React Framework",
     icon: "nextjs.svg",
@@ -50,6 +60,12 @@ const tools = [
     name: "Drizzle",
     description: "Database ORM",
     icon: "drizzle-icon.svg",
+  },
+
+  {
+    name: "Hibernate",
+    description: "Database ORM",
+    icon: "hibernate-icon.svg",
   },
 ];
 
