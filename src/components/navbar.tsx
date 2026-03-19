@@ -23,14 +23,14 @@ function Navbar() {
     <header
       className={`fixed top-3 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 ${
         isScrolled ? "bg-zinc-950/60 backdrop-blur-md" : "bg-transparent"
-      } rounded-full py-2 px-8`}
+      } rounded-full py-2 px-4 sm:px-8 max-w-[95vw] overflow-x-auto no-scrollbar`}
     >
-      <nav className="flex items-center gap-8">
+      <nav className="flex items-center gap-4 sm:gap-8 min-w-max">
         {navItems.map((item) => (
           <a
             key={item.name}
             href={item.href}
-            className="font-medium text-zinc-200 hover:text-white transition-colors"
+            className="font-medium text-sm sm:text-base text-zinc-200 hover:text-white transition-colors"
           >
             {item.name}
           </a>
